@@ -17,7 +17,7 @@ def display_records(records):
         return
 
 
-    print("\n--- Displaying DynamoDB Records ---")
+    print("\n--- Displaying Movies Records ---")
     for i, record in enumerate(records, 1):
         print(f"\n--- Record {i} ---")
         # Use the custom DecimalEncoder to handle DynamoDB's Decimal type
