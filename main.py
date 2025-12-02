@@ -8,7 +8,7 @@ from dynamodb_handler import DynamoDBHandler, DecimalEncoder
 
 def display_records(records):
     """
-    Displays records in a readable format.
+    Displays records in a readable format. //commented by Aanshika
 
     :param records: A list of records (items) from DynamoDB.
     """
